@@ -1,0 +1,19 @@
+.navbar {
+  width: 100%;
+}
+#Nav .container {
+  padding-right: 50px;
+  max-width: 1920px;
+}
+
+.header-nav {
+  /* height: 80px; */
+  padding: 0 !important;
+}
+.brand-img {
+  border-radius: 20px;
+}
+
+.primary-text {
+  color: rgb(46, 96, 46) !important;
+}

@@ -1,0 +1,10 @@
+#Footer {
+  width: 100%;
+}
+#Footer .navbar-brand {
+  color: rgb(46, 96, 46);
+  font: italic 1.2rem "Fira Sans", serif;
+}
+#Footer .container {
+  max-width: 1920px;
+}

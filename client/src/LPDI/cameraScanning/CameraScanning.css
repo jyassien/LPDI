@@ -1,0 +1,14 @@
+.camera-img {
+  margin: 100px auto 90px;
+  border: none;
+  box-shadow: 2px 2px 4px 80px rgba(157, 219, 34, 0.4);
+}
+.camera-scan-btn {
+  /* display: block; */
+  position: absolute;
+  /* top: 0; */
+  bottom: 50px;
+  height: 100px;
+  width: 500px !important;
+  border-radius: 30px !important;
+}
