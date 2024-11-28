@@ -18,6 +18,7 @@
 /server/build
 /server/node_modules
 /server/.env
+/server/data
 
 
 # misc
