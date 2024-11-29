@@ -20,6 +20,8 @@
 /server/.env
 /server/data/tomato/Variant-a(MulticlassClassification)/test/
 /server/data/tomato/Variant-a(MulticlassClassification)/train/
+/server/data/tomato/Variant-a(MulticlassClassification)/val/
+
 
 /server/data/tomato/Variant-b(MultiLabelClassification)
 /server/data/tomato/Variant-c(Object Detection)
