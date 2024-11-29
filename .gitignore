@@ -18,6 +18,9 @@
 /server/build
 /server/node_modules
 /server/.env
+/server/data/tomato/Variant-a(Multiclass Classification)/train/
+/server/data/tomato/Variant-a(Multiclass Classification)/test/
+
 /server/data/tomato/Variant-b(MultiLabel Classification)
 /server/data/tomato/Variant-c(Object Detection)
 
