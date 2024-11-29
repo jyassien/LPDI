@@ -18,7 +18,8 @@
 /server/build
 /server/node_modules
 /server/.env
-/server/data/tomato
+/server/data/tomato/Variant-b(MultiLabel Classification)
+/server/data/tomato/Variant-c(Object Detection)
 
 
 # misc
