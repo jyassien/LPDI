@@ -19,7 +19,7 @@
 /server/node_modules
 /server/.env
 
-
+/server/data/tomato/Variant_A/
 /server/data/tomato/Variant_B/
 /server/data/tomato/Variant-c(Object Detection)
 
