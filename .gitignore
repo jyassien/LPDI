@@ -26,7 +26,8 @@
 /server/data/tomato/Variant-b(MultiLabelClassification)
 /server/data/tomato/Variant-c(Object Detection)
 
-/server/data/plant/test
+/server/data/plant/
+
 
 
 # misc
