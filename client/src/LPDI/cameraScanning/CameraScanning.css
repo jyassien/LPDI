@@ -1,14 +1,71 @@
 .camera-img {
-  margin: 100px auto 90px;
+  margin: 90px auto 90px;
   border: none;
   box-shadow: 2px 2px 4px 80px rgba(157, 219, 34, 0.4);
+  /* position: absolute; */
+  /* z-index: -1; */
 }
 .camera-scan-btn {
   /* display: block; */
-  position: absolute;
-  /* top: 0; */
-  bottom: 50px;
-  height: 100px;
+  /* position: relative; */
+  background-color: white !important;
+  margin-top: -150px !important;
+  height: 80px !important;
   width: 500px !important;
+  border: 2px solid lightskyblue !important;
   border-radius: 30px !important;
+  z-index: 2;
+}
+.camera-scan-btn:hover {
+  color: black !important;
+  background-color: lightskyblue !important;
+}
+
+.scanning-effect {
+  position: relative;
+}
+
+.scanning-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(127, 176, 240, 0.4);
+  animation: scan 3s linear forwards;
+  z-index: 1;
+}
+
+@keyframes scan {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.bouncing-text {
+  display: inline-block;
+  font-size: 3rem;
+  animation: bounce 2s infinite;
+  position: relative;
+  bottom: -30px;
+  margin-bottom: -70px;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
