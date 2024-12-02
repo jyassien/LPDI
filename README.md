@@ -26,16 +26,16 @@ Current list of classification by the model includes: [
 - express/: Consists of training data, model fine tuning notebooks, and summary of different models tests.     
 - Flask: app.py handls api calls to the server.      
 
-## How to start the app:
+## How to start the app:        
 
-1. Server:     
-`cd LPDI`
-run `app.py`
+1. Server:             
+`cd LPDI`                
+run `app.py`        
 
-2. Client:    
-`cd LPDI/client`
-run `npm start`
+2. Client:            
+`cd LPDI/client`        
+run `npm start`        
 
-3. express app (Not required)
-`cd LPDI/express`
-run `npm start`
+3. express app (Not required)        
+`cd LPDI/express`       
+run `npm start`        
