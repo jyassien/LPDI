@@ -17,7 +17,9 @@ const SavedScans = () => {
         style={{ maxWidth: "300px", width: "100%", radius: "20px" }}
         rounded
       />
-      SavedScans
+      <div className="text-center display-5">
+        Saved Scans: Feature is Coming Soon!
+      </div>
     </Col>
   );
 };
