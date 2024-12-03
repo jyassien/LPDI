@@ -19,7 +19,7 @@
 /express/node_modules
 /express/.env
 
-/express/data/tomato/Variant_A/test
+/express/data/tomato/Variant_A/train
 /express/data/tomato/Variant_A/val
 /express/data/tomato/Variant_B/
 /express/data/tomato/Variant_C(Object Detection)
