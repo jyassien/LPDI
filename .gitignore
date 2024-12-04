@@ -21,7 +21,8 @@
 
 /express/data/tomato/Variant_A/train
 /express/data/tomato/Variant_A/test
-/express/data/tomato/Variant_B/
+/express/data/tomato/Variant_B/test
+/express/data/tomato/Variant_B/val
 /express/data/tomato/Variant_C(Object Detection)
 
 
